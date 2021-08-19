@@ -1,0 +1,19 @@
+@mixin flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.flex-container{
+  @include flex-center;
+  height: 100vh;
+  background:$bg-home;
+}
+h1{
+  font-size: 50px;
+  color: white;
+}

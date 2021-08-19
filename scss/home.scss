@@ -1,0 +1,17 @@
+#home{}
+
+.home-image{
+  height: 200px;
+  height: 200px;
+  background-image: url(images/home.jfif);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 10px white;
+}
+.column{
+  width: 300px;
+  margin: 0 30px;
+  p{
+    text-align: justify;
+  }
+}
